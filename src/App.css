@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+}
+
+#video-container {
+  text-align: center;
+}
+
+#videoElement {
+  width: 100%;
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+#message {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+#progress {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+#controls {
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
